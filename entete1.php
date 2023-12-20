@@ -1,0 +1,1 @@
+<a href="hotel.php" class="nav-link">HOME PAGE</a>
