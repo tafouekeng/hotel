@@ -1,0 +1,471 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #ecf4fb;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(23, 192, 192);
+}
+
+label.logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0 100px;
+    line-height: 80px;
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 40px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+a.active,
+a:hover {
+    /* border: 1px solid white; */
+    transition: .5s;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+}
+
+#home {
+    background-image: url(../imgs/pozadina-2-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    animation: loading infinite ease-in-out;
+    filter: brightness(0.9)
+}
+
+.home-main {
+    position: absolute;
+    top: 47%;
+    right: 30%;
+    z-index: 4;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.home-main p {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    left: 30%;
+
+}
+
+.btn-1 {
+    width: 200px;
+    background-color: rgb(15, 187, 187);
+    border-radius: 35px;
+    color: dark;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid rgb(16, 194, 194);
+
+}
+
+@keyframes loading {
+    0% {
+        background-image: url(../imgs/pozadina-2-scaled.jpg);
+    }
+
+    70% {
+        background-image: url(../imgs/essentia-luxury-hotel.jpg);
+    }
+
+    100% {
+        background-image: url(../imgs/tlhkg-langham-hong-kongopti\ Medium.webp);
+    }
+}
+
+.orange {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(23, 192, 192);
+    text-align: center;
+    color: white;
+}
+
+.room {
+    margin: 2px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.message,
+h2 {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.message,
+h3 {
+    text-align: center;
+    color: orangered;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+#about {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+#about h3 {
+    color: rgb(17, 185, 185);
+}
+
+#about p {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px;
+    color: #999999;
+}
+
+content,
+h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+
+}
+
+content,
+p {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.container {
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../imgs/room6.jpg);
+}
+
+#gallery {
+    margin-top: 90px;
+    background-color: #ecf4fb;
+    text-align: center;
+}
+
+.img-gallery {
+    margin: 100px auto 50px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.gallery,
+h4 {
+    font-size: 35px;
+    text-align: center;
+}
+
+h4 {
+    color: black;
+    margin: 20px;
+    text-decoration: underline;
+
+}
+
+.img-gallery img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.img-gallery,
+.anim:hover {
+    /* transform: scale(0.8) rotate(-15deg); */
+    border-radius: 20px;
+    transition: all 400ms ease-in-out;
+    filter: brightness(0.3);
+    box-shadow: 0 32px 75px rgba(68, 77, 136, 0.);
+}
+
+.full-img {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.full-img,
+img,
+span {
+    position: relative;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#bookroom {
+    width: 100%;
+    height: 710px;
+    margin-top: 60px;
+    background-color: #ecf4fb;
+}
+
+#bookroom .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+#bookroom,
+h5 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #ff7a00;
+}
+
+#bookroom article {
+    width: 25%;
+    height: 35%;
+    float: left;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#bookroom article:first-child {
+    margin-right: 30px;
+}
+
+.overlay {
+    background: rgba(255, 255, 255, 0.7);
+    height: auto;
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+}
+
+article h4 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#bookroom p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: olive;
+}
+
+#bookroom h5 {
+    color: black;
+}
+
+.button-2 {
+    color: #efefef;
+    background-color: rgb(16, 175, 175);
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+.button-2 :hover {
+    color: #fff;
+    background-color: #02b8dd;
+
+}
+
+#contact {
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../imgs/pozadina-2-scaled.jpg);
+    color: white;
+}
+
+.main-form {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #17a2b8;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.form form {
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h6 {
+    font-size: 20px;
+    text-align: center;
+}
+
+hr {
+    margin: 10px 0;
+    background-color: #ccc;
+    border: 0;
+    height: 1px;
+    width: 100%;
+}
+
+.name-field {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.name-field div {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-field div {
+    width: 49%;
+}
+
+label {
+    margin-bottom: 6px;
+}
+
+input {
+    margin-bottom: 5px;
+    padding: 15px;
+    outline: 0;
+    border: 1px solid #17a2b8;
+    border-radius: 30px;
+}
+
+input:focus {
+    border: 1px solid #17a2b8;
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+    background-color: #17a2b8;
+    padding: 15px 45%;
+    color: white;
+    border: 1px solid #17a2b8;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.connect {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #17a2b8;
+    margin-top: 50px;
+}
+
+footer {
+    height: 260px;
+    background-color: #444;
+}
+
+footer h1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.copyright {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}
+
+.blue {
+    color: #ff7a00;
+}
+
+
+.gallery-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-image {
+    max-width: 80%;
+    max-height: 80%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
