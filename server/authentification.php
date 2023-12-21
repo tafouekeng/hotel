@@ -1,5 +1,5 @@
 <?php
-include("connexion.php");
+include("../connexion.php");
 
 $login = $_POST['login'];
 $pass = $_POST['pwd'];
@@ -13,9 +13,9 @@ if($user =$sql->fetch()){
 
     $_SESSION['profil']=$user;
 
-    header("location:listehotel.php");
+    header("location:src/pages/listehotel.php");
 }
 else{
-    header("location:login.php");
+    header("location:src/pages/login.php");
 }
 ?>

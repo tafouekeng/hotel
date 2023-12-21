@@ -1,5 +1,5 @@
 <?php
 session_start();
 session_destroy();
-header("location:listehotel.php");
+header("location:src/pages/listehotel.php");
 ?>

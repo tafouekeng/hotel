@@ -2,9 +2,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOTEL PAGE</title>
+    <!-- <link href='public/css/bootstrap.min.css' rel='stylesheet'> -->
     <link rel="stylesheet" href="public/css/hotel.css">
     <script src="public/js/imagesAnim.js"></script>
     <link href='public/css/boxicons.min.css' rel='stylesheet'>
+
     <nav>
 
         <label class="logo"> Tafouekeng Appartement </label>

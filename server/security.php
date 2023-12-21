@@ -1,6 +1,6 @@
  <?php 
 session_start();
 if(!(isset($_SESSION['profil']))){
-    header("location:login.php");
+        header("location:src/pages/login.php");
 }
 ?>

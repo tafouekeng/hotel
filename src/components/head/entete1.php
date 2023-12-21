@@ -1,1 +1,1 @@
-<a href="hotel.php" class="nav-link">HOME PAGE</a>
+<a href="/" class="nav-link">HOME PAGE</a>

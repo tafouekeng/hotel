@@ -10,4 +10,4 @@ $date_depart = $_POST['date_depart'];
 $sql =$pdo->prepare("INSERT INTO reservation(nom, prenom, date_arriver, date_depart)VALUES(?,?,?,?)");
 $params =array($nom,$prenom,$date_arriver,$date_depart);
 $sql->execute($params);
-header("location:listehotel.php");
+header("location:src/pages/listehotel.php");

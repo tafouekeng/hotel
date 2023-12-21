@@ -217,8 +217,7 @@ h4 {
 .img-gallery,
 .anim:hover {
     /* transform: scale(0.8) rotate(-15deg); */
-    border-radius: 20px;
-    transition: all 400ms ease-in-out;
+    transition: all 200ms ease-in-out;
     filter: brightness(0.3);
     box-shadow: 0 32px 75px rgba(68, 77, 136, 0.);
 }
@@ -320,6 +319,7 @@ article h4 {
 .button-2 :hover {
     color: #fff;
     background-color: #02b8dd;
+    border-radius: 30px;
 
 }
 

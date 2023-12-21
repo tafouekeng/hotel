@@ -2,7 +2,7 @@
 <html lang="en">
 
 <?php
-include('src/components/home/head.php');
+include('src/components/layout/head.php');
 ?>
 
 <body>
@@ -19,7 +19,7 @@ include('src/components/home/head.php');
 </body>
 
 <?php
-include('src/components/home/footer.php');
+include('src/components/layout/footer.php');
 ?>
 
 </html>

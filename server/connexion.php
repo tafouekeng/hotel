@@ -1,7 +1,8 @@
 <?php
+$env = require('env.php');
 try {
     //code...
-    $str="mysql:host=localhost;dbname=gestiond'hotel";
+    $str = "mysql:host= " . $env['DB_HOST'] . ";dbname=" . $env['DB_NAME'];
     $pdo=new PDO($str,'root','');
 } catch (PDOException $e) {
     //throw $th;

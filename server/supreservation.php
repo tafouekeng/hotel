@@ -1,12 +1,12 @@
 <?php
 
 $id_reservation =$_GET['id_reservation'];
-include("connexion.php");
+include("../connexion.php");
 
 $sql = $pdo->prepare("DELETE FROM reservation WHERE id_reservation=?");
 
 $sql->execute(array($id_reservation));
 
-header('location:listehotel.php');
+header('location:src/pages/listehotel.php');
 
 
