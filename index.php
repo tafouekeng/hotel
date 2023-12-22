@@ -16,7 +16,7 @@ include('src/components/layout/head.php');
     include('src/components/home/contactUs.php');
     ?>
 
-</body>
+</body>c
 
 <?php
 include('src/components/layout/footer.php');
