@@ -16,7 +16,7 @@
             <li><a href="#gallery">GALLERY</a></li>
             <li><a href="#bookroom">ROOMS</a></li>
             <li><a href="#contact">CONTACT-US</a></li>
-            <li><a href="../page/listehotel.php">ADMIN</a></li>
+            <li><a href="listehotel.php">ADMIN</a></li>
         </ul>
     </nav>
 </head>
