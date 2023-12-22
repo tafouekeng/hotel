@@ -8,7 +8,7 @@ include("security.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LISTE DE RESERVATION</title>
     <?php
-    include("connexion.php");
+    include("../server/connexion.php");
     $sql=$pdo->prepare("SELECT*FROM reservation");
     $sql->execute();
     if(isset($_GET['recherche']) AND !empty($_GET['recherche'])){
@@ -21,7 +21,7 @@ include("security.php");
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<?php include("entete.php");?>
+<?php include("../components/head/entete1.php"); ?>
     <div class="container space">
         <div class="card">
         <section class="card-header spacerecherche">
