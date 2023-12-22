@@ -8,7 +8,7 @@ include("security.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LISTE DE RESERVATION</title>
     <?php
-    include("../server/connexion.php");
+    include("connexion.php");
     $sql=$pdo->prepare("SELECT*FROM reservation");
     $sql->execute();
     if(isset($_GET['recherche']) AND !empty($_GET['recherche'])){
