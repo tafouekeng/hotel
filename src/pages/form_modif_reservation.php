@@ -1,5 +1,5 @@
 <?php
-include("connexion.php");
+include("../server/connexion.php");
 $id_reservation = $_GET['id_reservation'];
 $sql = $pdo->prepare("SELECT * FROM reservation WHERE id_reservation=?");
 $sql->execute(array($id_reservation));
@@ -24,7 +24,7 @@ $reservation = $sql->fetch();
                 <h2>MODIFICATION DE RESERVATION</h2>
             </div>
             <div class="card-body">
-                <form action="updatereservation.php" method="POST">
+                <form action="../server/updatereservation.php" method="POST">
                     <input type="hidden" name="id_reservation" class="form-control" value="<?php echo ($reservation['id_reservation']); ?>">
                     <div class="form-group">
                         <label for="" class="label-control">NOM :</label>

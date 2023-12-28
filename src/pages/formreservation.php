@@ -36,22 +36,6 @@
                     <div class="form-group">
                         <label for="" class="label-control">DATE DE DEPART:</label>
                         <input type="date" name="date_depart" class="form-control">
-
-                    </div>
-                    <div class="form-group">
-                        <p> TYPE OF ROOM :<BR>
-                            <input type="checkbox" name="jazz" id="jazz">
-                            <label for="jazz" class="label-control">DELUXE ROOM</label><br>
-                            <input type="checkbox" name="jazz" id="jazz">
-                            <label for="jazz" class="label-control">SINGLE ROOM</label><br>
-                            <input type="checkbox" name="jazz" id="jazz">
-                            <label for="jazz" class="label-control">GUEST ROOM</label><br>
-                            <input type="checkbox" name="jazz" id="jazz">
-                            <label for="jazz" class="label-control">ECONOMY ROOM</label><br>
-                            <input type="checkbox" name="jazz" id="jazz">
-                            <label for="jazz" class="label-control">LUXURY ROOM</label><br>
-                        </p>
-                    </div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-primary">ENREGISTRER </button>
                     </div>

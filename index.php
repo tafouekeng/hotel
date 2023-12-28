@@ -14,7 +14,6 @@ include('src/components/layout/head.php');
     include('src/components/home/gallery.php');
     include('src/components/home/bookRoom.php');
     include('src/components/home/contactUs.php');
-    
     ?>
 
 </body>c
