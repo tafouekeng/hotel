@@ -4,18 +4,16 @@ include("../connexion.php");
 $login = $_POST['login'];
 $pass = $_POST['pwd'];
 
-$sql =$pdo->prepare("SELECT * FROM user WHERE username=? AND pwd=?");
+$sql = $pdo->prepare("SELECT * FROM user WHERE username=? AND pwd=?");
 
-$sql ->execute(array($login,$pass));
+$sql->execute(array($login, $pass));
 
-if($user =$sql->fetch()){
+if ($user = $sql->fetch()) {
     session_start();
 
-    $_SESSION['profil']=$user;
+    $_SESSION['profil'] = $user;
 
-    header("location:src/pages/listehotel.php");
+    header("listehotel.php");
+} else {
+    header("login.php");
 }
-else{
-    header("location:src/pages/login.php");
-}
-?>
